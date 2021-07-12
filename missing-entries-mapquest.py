@@ -3,8 +3,7 @@ import requests
 import json
 
 BASE_URL="http://www.mapquestapi.com/geocoding/v1/reverse"
-API_KEY="At1PEo3YjjPGG8BnrKg8DkCtgJkXKrWA"
-# RESULT="country"
+API_KEY=""
 
 def readFeatures():
     return pd.read_csv('places_high_countries.csv')

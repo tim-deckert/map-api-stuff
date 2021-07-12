@@ -3,7 +3,7 @@ import requests
 import json
 
 BASE_URL="https://maps.googleapis.com/maps/api/geocode/json"
-API_KEY="AIzaSyCyc8DiRiBhhViBHfB62fYqkLkvn6i7W9Q"
+API_KEY=""
 RESULT="country"
 
 def readFeatures():
